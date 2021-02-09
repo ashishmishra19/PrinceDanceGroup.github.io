@@ -1,0 +1,129 @@
+body
+{
+    font-family: cursive;
+}
+.h1
+{
+    position: absolute;
+    left: 20%;
+    font-size: 3.1rem;
+    font-family: cursive;
+    line-height: 1.4;
+    text-align: center;
+    font-weight: 800;
+    margin-top: 60px;
+    color: rgba(225,225,225,.1);
+    background-image: url( ../IMAGES/N7.jpg);
+    -webkit-background-clip: text;
+    -webkit-text-stroke: rgb(211, 211, 208);
+    -webkit-text-stroke-width: 0.2px;
+    text-shadow: 0 0 50px #000000;
+    animation: animate 7s linear infinite;
+}
+    @keyframes animate
+    {
+        0%{
+            background-position: left 10px top 0px;
+        }
+        50%{
+            background-position: left 700px top 0px;
+        }
+    }
+.bck
+{
+    color: #ffffff;
+    background-color: rgb(69, 69, 70);
+}
+.box
+{
+    margin-top: 100px;
+    box-shadow: 1px 1px 5px rgb(70, 223, 31);
+}
+.im
+{
+    width: 1400px;
+    height: 500px;
+}
+.details
+{
+    text-align: left;
+}
+.info
+{
+    background-color: rgba(10, 10, 10, 0.5);
+    padding: 5%;
+    box-shadow: 1px 1px 5px rgb(0, 0, 0);
+}
+.info p
+{
+    text-align: center;
+}
+footer b
+{
+    color: rgb(47, 255, 75);
+}
+footer p i
+{
+    font-size: 12px;
+}
+.icon-bar
+{
+    font-size: 40px;
+    letter-spacing: 2px;
+}
+/*Responsive*/
+@media (max-width: 2565px)
+{
+    .h1{
+        left: 35%;
+        font-size: 4.5em;
+        margin-top: 50px;
+    }
+}
+@media (max-width: 1445px)
+{
+    .h1{
+        left: 20%;
+        font-size: 4.5em;
+        margin-top: 50px;
+    }
+}
+@media (max-width: 1030px)
+{
+    .h1{
+        left: 15%;
+        font-size: 4rem;
+        margin-top: 50px;
+    }
+}
+@media (max-width: 770px)
+{
+    .h1{
+        left: 15%;
+        font-size: 3rem;
+    }
+}
+@media (max-width: 430px)
+{
+    .h1{
+        left: 8%;
+        margin-top: 80px;
+        font-size: 2rem;
+    }
+}
+@media (max-width: 380px)
+{
+    .h1{
+        left: 10%;
+        margin-top: 80px;
+        font-size: 1.7rem;
+    }
+}
+@media (max-width: 320px)
+{
+    .h1{
+        left: 10%;
+        margin-top: 80px;
+        font-size: 1.5rem;
+    }
+}

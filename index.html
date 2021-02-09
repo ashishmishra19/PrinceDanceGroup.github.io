@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="CSS/pdg.css"/>
+    <title>Prince Dance Group</title>
+  </head>
+
+  <body class="d-flex h-100 text-center text-light bg-dark">
+    <h1 class="h1">PRINCE DANCE GROUP</h1>
+    <div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
+      <!-- Navigation Bar --> 
+      <header class="fixed-top mb-auto">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+          <div class="container-fluid">
+            <a class="navbar-brand" href="index.html"><img src="IMAGES/logo.png" style="width: 60px"/></a>
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarSupportedContent"
+              aria-controls="navbarSupportedContent"
+              aria-expanded="false"
+              aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                  <a class="nav-link" href="aboutus.html">AboutUs</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+                    aria-expanded="false">Gallery</a>
+                  <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <li><a class="dropdown-item bck" href="images.html">Images</a></li>
+                    <li><a class="dropdown-item bck" href="videos.html">Videos</a></li>
+                  </ul>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="shows.html">Events</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="testimonials.html">Testimonials</a>
+                </li>
+              </ul>
+              <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">ContactUs</button>
+            </div>
+          </div>
+        </nav>
+      </header>
+      <!-- Contact Us Modal -->
+      <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content bg-dark">
+            <div class="modal-header">
+              <h5 class="modal-title text-warning fs-2 fw-bold" id="exampleModalLabel"><i>Contact Us</i></h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="details modal-body text-info fs-5 lh-lg">
+              <p><b class="text-light">NAME :</b> PRINCE DANCE GROUP</p>
+              <p><b class="text-light">ADDRESS :</b> Allipur, Gopalpur-Sea-Beach, Gopalpur, Odisha</p>
+              <p><b class="text-light">PIN CODE :</b> 760010</p>
+              <p><b class="text-light">E-MAIL :</b> raazkumar.1432@gmail.com</p>
+              <p><b class="text-light">PHONE No. :</b>+91 9583888722</p>
+            </div>
+            <div class="icon-bar">
+              <a href="https://www.facebook.com/princegrouporissa" target="blank"><i class="fa fa-facebook"> | </i></a>
+              <a href="https://www.princedancegroup.com" target="blank"><i class="icon fa fa-google"> | </i></a>
+              <a href="https://www.youtube.com/channel/UC9VpiqWN2b-UWubq3uxZVOQ" target="blank"><i class="fa fa-youtube"></i></a>
+            </div>  
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Corosel -->
+      <main class="my-4 px-3 main-img">
+        <div id="carouselExampleCaptions" class="box carousel slide" data-bs-ride="carousel">
+          <ol class="carousel-indicators">
+            <li data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"></li>
+            <li data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"></li>
+            <li data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"></li>
+          </ol>
+          <div class="carousel-inner fixed">
+            <div class="carousel-item active">
+              <img src="IMAGES/N12.jpg" class="im d-block w-100" />
+              <div class="carousel-caption d-none d-md-block">
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="IMAGES/K2.jpeg" class="im d-block w-100" />
+              <div class="carousel-caption d-none d-md-block">
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="IMAGES/N6.jpg" class="im d-block w-100" />
+              <div class="carousel-caption d-none d-md-block">
+              </div>
+            </div>
+          </div>
+          <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </a>
+          <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </a>
+        </div>
+      </main>
+      <!-- Information -->
+      <div class="info">
+        <p>
+          Prince Dance Group is rooted in a small town of Berhampur,In the eastern coastline of India, in the state of Odisha. 
+          The group is composed of twenty-six daily wageworkers who enthralled the entire India with their fantastic performance – 
+          Krishna Act and went on becoming the winner of the reality –talent show, " INDIAS GOT TELENT", With no formal training in dance, 
+          the group is led by Krishna Mohan Reddy, who is also the choreographer of this unique dance group.
+        </p>
+        <hr>
+        <p>
+          The members of the group are construction workers and two of them are psychically challenged.
+          They have won admiration and accolades from all corners of the country for their sheer commitment and will to fight all odds to achieve an incredible success. 
+          The Chief Minister of Odisha,Naveen Patnaik, gifted them a land and a cash prize of one crore rupees to set up a dance academy to help spread the art in different parts of the state. 
+          The group has performed globally and won hearts.
+        </p>
+        <hr>
+        <p>
+          Prince Dance Academy has recently performed at the inauguration of Indian Premier League, Chennai and Kaun Banega Crorepati on Sony TV.
+          Other recent performances include Opening Act for "India"s Got Talent" Season 4, 
+          "Who is the Greatest Indian" on History Channel and "NDTV-Toyota Greenathon" on NDTV 24x7.
+        </p>
+      </div>
+      <!-- Footer -->
+      <footer class="container">
+        <p><b> ©Prince Dance Group ·</b><i>since 2009</i><!--, Inc. · <a href="#">Privacy</a> · <a href="#">Terms</a>--></p>
+        <div class="icon-bar" style="font-size: 30px">
+          <a href="https://www.facebook.com/princegrouporissa" target="blank"><i class="fa fa-facebook"> | </i></a>
+          <a href="https://www.princedancegroup.com" target="blank"><i class="icon fa fa-google"> | </i></a>
+          <a href="https://www.youtube.com/channel/UC9VpiqWN2b-UWubq3uxZVOQ" target="blank"><i class="fa fa-youtube"></i></a>
+        </div>  
+      </footer>
+    </div>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

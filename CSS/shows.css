@@ -1,0 +1,49 @@
+.events
+{
+    background-color: rgb(19, 18, 18);
+    padding: 10px;
+    font-family: cursive;
+}
+.wrapper
+{
+    margin-top: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    /* box-shadow: 1px 1px 5px rgb(92, 250, 60); */
+}
+.box
+{
+    margin: 10px;   
+}
+.card
+{
+    padding: 0 20px 20px;
+}
+.imgbox
+{
+    width: 250px;
+    height: 200px;
+}
+.title h2
+{
+    color: rgb(253, 245, 232);
+    font-family: cursive;
+    text-align: center;
+    font-weight: bolder;
+    margin-top: 100px;
+    box-shadow: 1px 1px 5px rgb(250, 145, 60);
+}
+.list-group-item
+{
+    font-family: cursive;
+}
+footer b
+{
+    color: rgb(47, 255, 75);
+}
+footer p i
+{
+    font-size: 12px;
+}

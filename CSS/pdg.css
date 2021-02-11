@@ -1,16 +1,14 @@
-body
-{
-    font-family: cursive;
+*{
+    font-family: Arial, Helvetica, sans-serif;
 }
 .h1
 {
     position: absolute;
-    left: 20%;
-    font-size: 3.1rem;
-    font-family: cursive;
+    /* left: 15%; */
+    font-size: 50px;
     line-height: 1.4;
     text-align: center;
-    font-weight: 800;
+    font-weight: 500;
     margin-top: 60px;
     color: rgba(225,225,225,.1);
     background-image: url( ../IMAGES/N7.jpg);
@@ -29,6 +27,10 @@ body
             background-position: left 700px top 0px;
         }
     }
+.navbar
+{
+    font-size: 18px;
+}
 .bck
 {
     color: #ffffff;
@@ -37,7 +39,9 @@ body
 .box
 {
     margin-top: 100px;
-    box-shadow: 1px 1px 5px rgb(70, 223, 31);
+    box-shadow: 1px 2px 5px rgb(70, 223, 31);
+    border: 2px solid none;
+    border-radius: 5px;
 }
 .im
 {
@@ -57,6 +61,10 @@ body
 .info p
 {
     text-align: center;
+}
+footer
+{
+    padding: 10px;
 }
 footer b
 {
@@ -101,6 +109,9 @@ footer p i
     .h1{
         left: 15%;
         font-size: 3rem;
+    }
+    .info p{
+        text-align: center;
     }
 }
 @media (max-width: 430px)

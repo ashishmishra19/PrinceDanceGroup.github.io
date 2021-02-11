@@ -2,8 +2,12 @@ body
 {
     padding: 10px;
     box-sizing: border-box;
-    font-family: cursive;
+    font-family: Arial, Helvetica, sans-serif;
     background-color: rgb(11, 10, 10);
+}
+.navbar
+{
+    font-size: 18px;
 }
 .wrapper
 {
@@ -69,17 +73,20 @@ body
 .box h2
 {
     font-size: 25px;
-    color: #000000b0;
+    font-weight: 600;
+    color: #000;
     text-transform: uppercase;
     margin: 15px 0;
 }
 .box p
 {
-    color: #ffffff90;
+    color: #ffffffc9;
     font-size: 15px;
+    font-weight: 500;
 }
 .designation
 {
+    font-weight: 500;
     color: #000;
 }
 footer b
